@@ -1,0 +1,91 @@
+.FeaturesProductsSession3{
+    position: relative;
+    top: -50px;
+    
+}
+
+.flexcontainerproductsessio3{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+.flexitensproducts3{
+    width: 588px;
+    height: auto;
+    margin: 5px;
+   
+}
+
+.containerflexproducts3{
+    position: relative;
+    display: flex;
+    text-align: right;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+ 
+}
+
+.containerflexproducts3 h4{
+    font-family: 'Poppinssemibold';
+    font-size: 25px;
+    color: #4395B7;
+}
+
+
+.containerflexproducts3 p{
+    font-family: 'Poppinligth';
+    margin-top: 20px;
+}
+
+.containerflexproducts3 button{
+   
+    padding: 10px;
+    width: 55%;
+    margin-top: 40px;
+    background: linear-gradient(to right, #2EDDE7, #00A8BD);
+    color: white;
+    font-weight: bold;
+}
+
+.containerflexproducts3 img{
+    position: relative;
+    width: 395px;
+    height: 320px;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .FeaturesProductsSession3{
+        top: -120px;
+    }
+    .flexcontainerproductsessio3{
+        flex-direction: column;
+    }
+
+    .containerflexproducts3{
+       
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .flexitensproducts3{
+        width: 90%;
+    }
+
+    .containerflexproducts3 img{
+        width: 90%;
+    }
+    
+}

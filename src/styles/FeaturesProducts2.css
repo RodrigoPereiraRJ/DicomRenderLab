@@ -1,0 +1,87 @@
+.FeaturesProductsSession2{
+    position: relative;
+    top: -120px;
+}
+
+.flexcontainerproductsessio2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+.flexitensproducts2{
+    width: 588px;
+    height: auto;
+    margin: 5px;
+   
+}
+
+.containerflexproducts2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+
+.containerflexproducts2 h4{
+    font-family: 'Poppinssemibold';
+    font-size: 25px;
+    color: #4395B7;
+}
+
+
+.containerflexproducts2 p{
+    font-family: 'Poppinligth';
+    margin-top: 20px;
+}
+
+.containerflexproducts2 button{
+   
+    padding: 10px;
+    width: 55%;
+    margin-top: 40px;
+    background: linear-gradient(to right, #2EDDE7, #00A8BD);
+    color: white;
+    font-weight: bold;
+}
+
+.containerflexproducts2 img{
+    position: relative;
+    width: 395px;
+    height: 320px;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .FeaturesProductsSession2{
+        top: -200px;
+    }
+    .flexcontainerproductsessio2{
+        flex-direction: column;
+    }
+
+    .containerflexproducts2{
+       
+        align-items: center;
+
+    }
+
+    .flexitensproducts2{
+        width: 90%;
+    }
+
+    .containerflexproducts2 img{
+        width: 90%;
+    }
+    
+}

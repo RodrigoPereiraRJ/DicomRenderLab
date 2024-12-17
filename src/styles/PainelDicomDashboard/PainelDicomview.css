@@ -1,0 +1,289 @@
+.containergeral{
+    position: relative;
+    overflow-y: hidden;
+    width: 100%;
+   
+}
+.flexpainelcontainers{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #27272B;
+    
+}
+
+.containerflexcontent{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto; 
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+
+
+
+
+.containerflexcontent nav{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    
+    
+}
+
+
+.logoimgnav{
+    position: relative;
+    width: 313px;
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.logoimgnav img{
+    position: relative;
+    width: 180px;
+    height: 100%;
+   
+}
+.itensmenucontainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   
+   
+}
+
+.itensmenucontainer ul{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+   
+}
+
+.itensmenucontainer ul li{
+    position: relative;
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+ul li:hover{
+    border: 1px solid gray;
+   
+}
+
+li img{
+    position: relative;
+    width: 20px;
+    height: 50%;
+   
+}
+
+.containerloadingimg{
+    position: relative;
+    width: 314px;
+    height: calc(100vh - 65px);
+    background-color: #27272B;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.selectlinguage{
+    position: relative;
+    width: 60%;
+    top: 70%;
+    height: 100px;
+    
+    
+}
+
+.selectlinguage label{
+    color: white;
+}
+
+.selectlinguage select{
+    position: relative;
+    width: 100%;
+    background-color: #383842;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
+
+.canvasviewDicomcontainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 65px);
+    background-color: black;
+   
+}
+
+.renderdicomvisualizer{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 1px pink;   
+}
+
+.renderdicomvisualizer canvas{
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+   
+}
+
+.renderdicomvisualizer .magnifyTool{
+    box-shadow: 0 0 20px black;
+    width: 300px !important;
+    height: 45% !important;
+}
+
+
+.insertcontent{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(#06111A,#092a46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.containeroptioinscontent{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+
+.containeroptioinscontent h1{
+    font-family: 'Poppinblack';
+    font-size: 25px;
+    color: white;
+    
+}
+
+.containeroptioinscontent p{
+    margin-top: 10px;
+    color: white;
+}
+
+.containeroptioinscontent input{
+    margin-top: 13px;
+    color: white;
+    background-color: #E51B48;
+   
+}
+
+.containerflexcontent button{
+    position: relative;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 0;
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .flexpainelcontainers{
+        flex-direction: column;
+    }
+    .insertcontent{
+        border: none;
+    }
+    .logoimgnav{
+        display: none;
+    }
+
+    .canvasviewDicomcontainer{
+        border: none;
+    }
+
+    .itensmenucontainer ul{
+        width: 100%;
+    }
+    .containerloadingimg{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+  
+   .itensmenucontainer ul{
+    overflow-x: auto;
+   }
+
+   .itensmenucontainer ul::-webkit-scrollbar{
+     height: 5px;
+     
+   }
+
+   .itensmenucontainer ul::-webkit-scrollbar-thumb{
+    background-color: #E51B48;
+   }
+   .insertcontent{
+    width: 100%;
+   }
+   .containeroptioinscontent{
+    width: 100%;
+
+   }
+    
+}
+
+@media screen and (max-width: 330px) {
+    .containeroptioinscontent input{
+        width: 100%;
+    }
+
+    .containerflexcontent button{
+        width: 100%;
+    }
+    
+}

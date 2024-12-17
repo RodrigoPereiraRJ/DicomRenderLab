@@ -1,0 +1,96 @@
+.flexitenscontainerhome{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    top: -210px;
+ 
+ 
+    
+}
+
+.flexhomecontainerfeatures{
+    position: relative;
+    height: 214px;
+    width: 320px;
+    margin: 15px;
+    
+}
+
+.containerproductfeatures{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-bottom: 5px solid #456DB6;
+    box-shadow: 0 0 15px gray;
+}
+
+
+.imgfeatureilustration{
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+   
+    top: 10px;
+    
+    
+}
+
+.imgfeatureilustration img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.containerproductfeatures span{
+    position: absolute;
+    top: 90px;
+    font-size: 18px;
+    font-family: 'Poppinssemibold';
+    
+  
+}
+
+
+.containerproductfeatures p{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    font-family: 'Poppinligth';
+    color: rgb(68, 67, 67);
+}
+
+
+@media screen and (max-width: 768px) {
+    .flexitenscontainerhome{
+        top: -120px;
+    }
+
+    .flexhomecontainerfeatures{
+        height: 220px;
+        margin: 5px;
+    }
+
+    .containerproductfeatures p{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 475px) {
+    .flexhomecontainerfeatures{
+        height: 260px;
+    }
+    
+    .containerproductfeatures p{
+        font-size: 13px;
+    }
+}

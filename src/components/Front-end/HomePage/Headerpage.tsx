@@ -28,7 +28,7 @@ function Headerpage() {
                     <div className="imglogonavbar">
                         <img src={LogoHeader} alt="" />
                     </div>
-                    <button>GitHub</button>
+                    <button onClick={()=> window.open('https://github.com/RodrigoPereiraRJ')}>GitHub</button>
                 </div>
             </nav>
         </header>

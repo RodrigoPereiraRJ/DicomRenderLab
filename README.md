@@ -10,7 +10,7 @@ Este é um projeto de visualização e manipulação de imagens médicas no form
 
 ---
 
-🚀 **Principais Tecnologias**  
+ **Principais Tecnologias**  
 ---
 1. **React:** Biblioteca JavaScript para a criação de interfaces dinâmicas e reativas.
 2. **TypeScript:** Superset do JavaScript para garantir maior segurança e robustez no código.
@@ -19,7 +19,7 @@ Este é um projeto de visualização e manipulação de imagens médicas no form
 
 ---
 
-### ⚙️ **Funcionalidades**  
+###  **Funcionalidades**  
 1. **Renderização de Imagens DICOM**: O usuário pode carregar e visualizar imagens DICOM diretamente na aplicação.
 2. **Manipulação de Imagens**: Permite o ajuste de parâmetros como brilho, contraste e zoom nas imagens DICOM.
 3. **Interface Interativa**: A interface é simples e fácil de usar, proporcionando uma experiência agradável ao usuário.

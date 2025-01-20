@@ -34,7 +34,7 @@ Confira algumas capturas de tela da aplicação:
 --  
 ![Tela Inicial](https://i.ibb.co/c3Twx9b/Captura-de-tela-2024-12-17-153217.png)  
 --  
-![Dahboard-Dicom-Painel](https://i.ibb.co/YZbH2DH/Captura-de-tela-2024-12-17-153432.png)  
+![Dahboard-Dicom-Painel](https://i.ibb.co/gWGvXQW/Captura-de-tela-2025-01-20-104419.png)  
 -- 
 ![Dahboard-Dicom-Painel](https://i.ibb.co/tDTffF1/Captura-de-tela-2024-12-18-092850.png)  
 --

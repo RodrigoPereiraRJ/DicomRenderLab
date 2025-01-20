@@ -15,7 +15,7 @@ Este é um projeto de visualização e manipulação de imagens médicas no form
 1. **React:** Biblioteca JavaScript para a criação de interfaces dinâmicas e reativas.
 2. **TypeScript:** Superset do JavaScript para garantir maior segurança e robustez no código.
 3. **CornerstoneJS:** Biblioteca poderosa para renderização e manipulação de imagens médicas no formato DICOM.
-4. **HTML, CSS e JavaScript:** Para estrutura e estilo da aplicação.
+
 
 ---
 

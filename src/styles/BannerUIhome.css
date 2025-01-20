@@ -10,6 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     top: -90px;
+    
 }
 
 .flexitens{
@@ -97,9 +98,10 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1390px) {
     .flexitens{
         width: 95%;
+        
     }
 
     .containerimg{

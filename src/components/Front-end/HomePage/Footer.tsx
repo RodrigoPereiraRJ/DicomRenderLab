@@ -39,7 +39,7 @@ function Footer() {
                         <div className="containerdescproductfooter" style={{flexDirection: 'column', alignItems: 'center'}}>
                             <p style={{fontWeight: 'bold'}}>Links Rapidos</p>
                             <a href="../../../../public/Apresentacao_Projeto_DICOM.pdf" target='_blank'>Sobre o Projeto</a>
-                            <a href="">Linkedin</a>
+                            <a href="https://github.com/RodrigoPereiraRJ" target='_blank'>Linkedin</a>
                             
                         </div>
                     </div>

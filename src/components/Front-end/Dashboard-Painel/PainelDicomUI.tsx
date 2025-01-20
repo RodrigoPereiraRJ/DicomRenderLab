@@ -20,6 +20,7 @@ import {
     AccordionTrigger,
 } from '@/components/ui/accordion';
 
+
 interface MetodosTools {
     enableZoomTool: () => void;
     enablerotatetool: () => void;
@@ -153,12 +154,12 @@ function PainelDicomview() {
                                 <AccordionContent style={base64img.length > 0 || urlweb.length > 0 ? { backgroundColor: 'black' } : { backgroundColor: '#383842' }}>
                                     <div>
                                         {base64img.length > 0 || urlweb.length > 0 ? (
-                                            <div onContextMenu={(e) => { e.preventDefault(); }}>
+                                            <div onContextMenu={(e) => { e.preventDefault(); }} style={{position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                                                 {base64img.length > 0 && (
-                                                    <img src={base64img} alt="" />
+                                                    <img src={base64img} alt="" style={{position: 'relative', height: '170px', width: '100%'}} />
                                                 )}
                                                 {urlweb.length> 0 && (
-                                                    <img src={urlweb} alt="" />
+                                                    <img src={urlweb} alt="" style={{position: 'relative', height: '170px', width: '100%'}} />
                                                 )}
                                                 <span style={{ color: 'white' }}>{namefile}</span>
                                             </div>

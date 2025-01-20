@@ -70,8 +70,10 @@
     position: relative;
     width: 65%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(30, 29, 29);
     display: flex;
+    padding: 5px;
+   
    
 }
 
@@ -173,13 +175,22 @@ li img{
     position: relative;
     width: 100%;
     height: 80%;
-    background: linear-gradient(#06111A,#092a46);
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     overflow-y: auto;
+}
 
+.insertcontent::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://imaradiologia.com.br/wp-content/uploads/2021/06/dicom.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
 }
 
 .containeroptioinscontent{
@@ -192,6 +203,7 @@ li img{
     justify-content: center;
     text-align: center;
    
+   
     
 }
 
@@ -200,6 +212,9 @@ li img{
     font-family: 'Poppinblack';
     font-size: 25px;
     color: white;
+   
+    padding: 10px;
+ 
     
 }
 
